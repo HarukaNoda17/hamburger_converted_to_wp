@@ -1,0 +1,158 @@
+// // sidebar　Menu文字　位置
+// // sidebar　Menu文字スタイル
+
+.c-title--sidebar {
+    display: none;
+    font-size: 34px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #707070;
+@media screen and (min-width: 768px){
+    display: none;
+    }
+@media screen and (min-width: 1025px){
+    display: inherit;
+    margin-top: 82px;
+    margin-left: 46px;
+    }
+}
+
+.c-title--sidebar__menu {
+    font-size: 24px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: bold;
+    color: #707070;
+}
+
+.side-wrapper .p-sideMenu__main .c-title--sidebar__menu {
+    margin: 3rem 0 0 20%;
+@media screen and (min-width: 768px){
+    margin: 3rem 0 0 61%;
+    }
+@media screen and (min-width: 1025px){
+    margin: 3rem 0 0 20%;
+    }
+}
+
+// main 文字スタイル
+
+.c-title {
+    &--main {
+        font-size: 36px;  
+        @media screen and (min-width: 1025px) {
+            font-size: 45px;
+        }
+    }
+}
+
+// メイン　tekeOut EAT In 文字位置
+
+.c-title--sub {
+    margin-left: 15px;
+    padding-top: 11px;
+    margin-bottom: auto;
+    font-size: 50px;
+@media screen and (min-width: 768px) {
+    font-size: 44px;
+    }
+    @media screen and (min-width: 1025px) {
+    font-size: 50px;
+    }
+}    
+
+// メイン　teke Out EAT In 文字下線
+
+.c-title--underline::after {
+    content: "";
+    display: inline-block;
+    background-color: #ffffff;
+    font-weight: bold;
+    position: relative;
+}
+
+.c-title--sentence {
+    font-size: 22px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+// google map 見出し文字
+
+.c-title--access {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+// footer 文字
+
+.c-title--footer {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.c-title--vertical-line::after {
+    content: "";
+    display: inline-block;
+    background-color: #fff;
+}
+
+// アーカイブページ　トップ
+
+.c-title--under-text::after {
+    content: "チーズバーガー";
+    font-size: 16px;
+}
+
+.c-title--archive {
+    font-size: 28px;
+}
+
+.c-title--card {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.c-title--subheading {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+// シングルページ　トップ
+
+.c-title__single--h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.c-title__single--h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.c-title__single--h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.c-title__single--h5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.c-title__single--h6 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.c-text--base {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "M PLUS 1p", sans-serif;
+}

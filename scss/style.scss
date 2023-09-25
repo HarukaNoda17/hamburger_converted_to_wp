@@ -1,0 +1,33 @@
+@charset"UTF-8";
+
+/* foundation */
+@use "foundation/base";
+@use "foundation/reset";
+
+/* layout */
+@use "layout/header";
+@use "layout/sidebar";
+@use"layout/main";
+@use"layout/footer";
+
+/* object */
+
+// Component
+@use "object/component/background";
+@use "object/component/button";
+@use "object/component/font";
+@use "object/component/image";
+@use "object/component/flex";
+@use "object/component/title";
+@use "object/component/text";
+@use "object/component/form";
+@use "object/component/boder";
+@use"object/component/overlay";
+
+// Project
+@use "object/project/search";
+@use "object/project/sideMenu";
+@use"object/project/visual";
+@use"object/project/access";
+@use"object/project/card";
+@use"object/project/pagination";

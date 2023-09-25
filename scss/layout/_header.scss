@@ -1,0 +1,54 @@
+.l-header {
+    width: 100%;
+    height: auto;
+    grid-area: header;
+    @media screen and (min-width: 1025px){   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+}
+// header Hambuger 文字部分
+
+.l-header__top__logo {
+    font-size: 40px;
+    color: #707070;
+    margin: 40px 0px 38px auto;
+    @media screen and (min-width: 600px){
+        margin-left: auto;
+    }
+    @media screen and (min-width: 1025px){
+        font-size: 52px;
+        margin-left: 20%;
+    }
+    @media (min-width: 1280px){
+        font-size: 64px;
+    }
+}
+
+.l-header__top__menu {
+    margin-top: 14px;
+    margin-right: 16px;
+    margin-left: auto;
+    @media screen and (min-width: 1025px) {
+        display: none;
+    }
+}
+
+// ハンバーガーボタン出現
+
+.l-header__top__menu .c-button--menu {
+    font-size: 20px;
+    @media (min-width: 520px) {
+    font-size: 34px;
+    }
+}
+
+// main eatIn 
+
+.l-main .p-visual--sub--eatIn .c-title--sub {
+    margin-left: 15px;
+    padding-top: 11px;
+    margin-bottom: auto;
+}

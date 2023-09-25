@@ -1,0 +1,27 @@
+.l-footer {
+    text-align: center;
+    grid-area: footer;
+}
+.c-background--footer {
+    height: 9.375rem;
+}
+
+.l-footer--menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: auto;
+}
+
+.l-footer--menu .c-title--vertical-line::after {
+    width: 0.09375rem;
+    height: 70%;
+    margin: 0 1rem;
+    position: relative;
+    top: 15%;
+}
+
+.l-footer .c-text--copy-right {
+    display: inline-block;
+    margin-top: 1.5rem;
+}

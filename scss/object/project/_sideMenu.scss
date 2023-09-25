@@ -1,0 +1,11 @@
+
+.p-sideMenu__main {
+    @media screen and (min-width: 1025px){
+        width: 19vw;
+        background: inherit;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background-color: #f2ede9;
+        transition-duration: 0s;
+    }
+}

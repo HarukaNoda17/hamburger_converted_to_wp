@@ -1,0 +1,79 @@
+// ーーーフロントページーーー
+
+// header背景color
+.c-background-color--base {
+    background-color: #fff7ef;
+}
+
+// main背景color
+
+.c-background-color--white {
+    background-color: #fff;
+}
+
+// google map 
+
+.c-background--map {
+    background-image: url(/images/front/google-map-full.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.p-access .c-background--map {
+    background-size: cover;
+    display: inline-block;
+    height: auto;
+    min-height: 43.1875rem;
+    position: relative;
+    z-index: 1;
+}
+
+.c-background--overlay::after {
+    content: "";
+    display: block;
+}
+
+.l-main .p-access .c-background--map .c-title--access {
+    position: inherit;
+    z-index: 3;
+}
+
+.l-main .p-access .c-background--map .c-title--underline {
+    position: inherit;
+}
+
+// footer 背景
+
+.c-background--footer {
+    background-image: url(/images/front/footer.png);
+}
+
+// ーーーアーカイブページーーー
+
+.u-background--overlay--archive::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.c-background-color--card {
+    background-color: rgb(60, 43, 28);
+}
+
+// ーーーシングルページーーー
+
+.c-button--single {
+    cursor: pointer;
+    background-color: #f2ede9;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    width: 100%;
+    height: 81px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M PLUS 1p", sans-serif;
+}

@@ -1,0 +1,80 @@
+// アーカイブページ　ページ表記
+
+.p-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.1875rem;
+    width: 89vw;
+    margin: auto;
+    margin-bottom: 31px;
+@media screen and (min-width: 768px) {
+    justify-content: center;
+    width: 72vw;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    }
+@media screen and (min-width: 1025px) {
+    margin-bottom: 64px;
+    }
+}
+
+.p-pagination .prev-link, .p-pagination .next-link {
+    text-decoration: none;
+    display: flex;
+}
+
+.p-pagination .prev-link .c-img--current-page {
+    width: 7rem;
+    background-position: center center;
+@media (max-width: 767px) {
+        display: none;
+    }
+}
+
+// ページネーション　<< マーク
+
+.p-pagination .prev-link .c-img--prev {
+    background-position: 0px;
+    width: 30px;
+    filter: brightness(0.5);
+}
+
+.p-pagination .pagination-link .number-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0px 8px;
+}
+
+// ページネーション　ナンバー
+
+.p-pagination .pagination-link .number-list .page-number {
+    color: rgb(112, 112, 112);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    padding: 6px 13px;
+}
+
+.p-pagination .pagination-link .number-list .page-number:first-of-type {
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 43, 28);
+}
+
+// レスポンシブ　ナンバー削除
+
+.p-pagination .pagination-link {
+@media (max-width: 767px){
+    display: none;
+    }
+}
+
+// ページネーション　>> マーク
+
+.p-pagination > .next-link .c-img--next {
+    width: 3rem;
+    filter: brightness(0.5);
+    background-position: 12px center;
+}

@@ -1,0 +1,63 @@
+// google map
+
+.p-access--map::before {
+    content: "";
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60%;
+    @media screen and (min-width: 1025px) {
+        width: 61%;
+    }
+    @media screen and (min-width: 768px) {
+        height: 100%;
+    }
+}
+
+.p-access--map .c-title--access {
+    padding-top: 40px;
+    margin-left: 42px;
+    @media screen and (min-width: 1025px) {
+    font-size: 36px;
+    padding-top: 83px;
+    margin-left: 119px;
+    }
+}
+
+// google map 見出し文字　白線
+
+.p-access--map .c-title--underline::after {
+    width: 4.5rem;
+    height: 2px;
+    bottom: -2rem;
+    left: -15.5rem;
+    background-color: #ffffff;
+    @media screen and (min-width: 1025px) {
+    left: -18.5rem;
+    bottom: -4.5rem;
+    }
+}
+
+.p-access--map .c-text--access {
+    display: inline-block;
+    height: auto;
+    line-height: 2rem;
+    margin: 2.5rem 40px 51px;
+    position: inherit;
+    z-index: 3;
+    @media screen and (min-width: 1025px) {
+    width: 42%;
+    padding-top: 5rem;
+    margin: 2.5rem 100px 1.3125rem;
+    }
+}
+
+.p-access .c-background--overlay::after {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}

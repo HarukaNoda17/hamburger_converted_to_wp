@@ -1,0 +1,33 @@
+// 虫眼鏡
+.c-img--magnifying-glass {
+    background-image: url(/images/front/search.png);
+    background-repeat: no-repeat;
+}
+
+.c-img--magnifying-glass {
+    font-size: 24px;
+    text-indent: 3rem;
+    background-position: 16px 11px;
+}
+
+// バツボタン
+
+.c-img--xmark::before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    cursor: pointer;
+}
+
+// アーカイブページ　ページ１/10表記
+
+.c-img--current-page {
+    background-image: url(/images/archive/page.png);
+    background-repeat: no-repeat;
+}
+
+.c-img--prev {
+    background-image: url(/images/archive/prev.png);
+    background-repeat: no-repeat;
+}

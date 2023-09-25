@@ -1,0 +1,64 @@
+// sidebar Menu
+
+.c-text--sidebar {
+        font-size: 20px;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #707070;
+}
+
+.c-text--sidebar > li {
+    margin-bottom: 23px;
+}
+
+.c-text--sub {
+    font-size: 16px;
+}
+
+.c-text--access {
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.c-text--copy-right {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.c-text--archive {
+    font-size: 16px;
+}
+
+.c-text--card {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.c-text--pagination {
+    font-size: 16px;
+    font-weight: normal;
+    color: #707070;
+@media screen and (min-width: 768px) {
+    visibility: hidden;
+    width: 0px;
+    }
+}
+
+.c-img--next {
+    background-image: url(/images/archive/next.png);
+    background-repeat: no-repeat;
+}
+
+.c-text--single {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.c-text--single-sub {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "M PLUS 1p", sans-serif;
+}
