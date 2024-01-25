@@ -1,16 +1,3 @@
-/*
-  Theme Name:     hamburger_wp //テーマの名前
-  Description:    hamburger-site//テーマの説明
-  Version:        1.0.0 //バージョン
-  Theme URI:      https://github.com/HarukaNoda17/hamburger_wp //テーマの URL
-  Author:         haruka//作った人の名前
-  Author URI:     //作った人の URL
-  Tags:            right-sidebar, blog //テーマのタイプ
-  License:        GNU General Public License v3.0 //ライセンス（WordPressのテーマやプラグインを公開して配布する場合、ライセンスはGPLになります。）
-  License URI:     http://www.gnu.org/licenses/gpl-3.0.html //ライセンスの URL
-  Text Domain:    hamburger_wp //テキストドメイン（翻訳させたい箇所を指示する際に使います。テーマディレクトリ名を入れます。）
-*/
-
 @charset "UTF-8";
 *,
 *:before,
@@ -22,7 +9,7 @@ body {
   font-feature-settings: "palt";
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+       text-size-adjust: 100%;
   font-size: 100%;
   font-size: 16px;
   height: 100%;
@@ -506,7 +493,7 @@ pre {
 }
 
 .c-background--map {
-  background-image: url(/images/front/google-map-full.png);
+  background-image: url(../../hamburger_wp/images/front/google-map-full.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -535,7 +522,7 @@ pre {
 }
 
 .c-background--footer {
-  background-image: url(/images/front/footer.png);
+  background-image: url(../../hamburger_wp/images/front/footer.png);
 }
 
 .u-background--overlay--archive::after {
@@ -610,7 +597,7 @@ pre {
 }
 
 .c-img--magnifying-glass {
-  background-image: url(/images/front/search.png);
+  background-image: url(../../hamburger_wp/images/front/search.png);
   background-repeat: no-repeat;
 }
 
@@ -629,12 +616,12 @@ pre {
 }
 
 .c-img--current-page {
-  background-image: url(/images/archive/page.png);
+  background-image: url(../../hamburger_wp/images/archive/page.png);
   background-repeat: no-repeat;
 }
 
 .c-img--prev {
-  background-image: url(/images/archive/prev.png);
+  background-image: url(../../hamburger_wp/images/archive/prev.png);
   background-repeat: no-repeat;
 }
 
@@ -961,7 +948,7 @@ input::placeholder {
 }
 
 .p-visual--main {
-  background-image: url(/images/front/main-visual-1.jpg);
+  background-image: url(../../hamburger_wp/images/front/main-visual-1.jpg);
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
@@ -1019,7 +1006,7 @@ input::placeholder {
 }
 
 .p-visual--sub--takeOut {
-  background-image: url(/images/front/main-visual-2.jpg);
+  background-image: url(../../hamburger_wp/images/front/main-visual-2.jpg);
   background-position: center;
   background-size: cover;
   height: auto;
@@ -1053,7 +1040,7 @@ input::placeholder {
 }
 
 .p-visual--sub--eatIn {
-  background-image: url(/images/front/main-visual-3.jpg);
+  background-image: url(../../hamburger_wp/images/front/main-visual-3.jpg);
   background-position: center;
   background-size: cover;
   height: auto;
@@ -1126,7 +1113,7 @@ input::placeholder {
 }
 
 .p_visual__archive--main {
-  background-image: url(/images/archive/top_01.png);
+  background-image: url(../../hamburger_wp/images/archive/top_01.png);
   background-size: inherit;
   display: flex;
   align-items: center;
@@ -1208,7 +1195,7 @@ input::placeholder {
 }
 
 .p-visual__single--main {
-  background-image: url(/images/single/top_single.png);
+  background-image: url(../../hamburger_wp/images/single/top_single.png);
   background-size: 56rem;
   background-position: center 37%;
   background-repeat: no-repeat;
@@ -1755,7 +1742,7 @@ input::placeholder {
 }
 
 .p-visual__page--main {
-  background-image: url(/images/shop/shop.png);
+  background-image: url(../../hamburger_wp/images/shop/shop.png);
   background-size: 56rem;
   margin-bottom: 30px;
   display: flex;

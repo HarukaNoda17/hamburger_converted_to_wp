@@ -1,9 +1,9 @@
 // フロントページ　
 
-// メイン写真 ダミーサイト
+// メイン写真画像 ダミーサイト
 
 .p-visual--main {
-    background-image:url(../../images/front/main-visual-1.jpg);
+    background-image:url(../../hamburger_wp/images/front/main-visual-1.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
@@ -53,7 +53,7 @@
 // 　フロントページ　サブ写真　takeOut
 
 .p-visual--sub--takeOut {
-    background-image: url(/images/front/main-visual-2.jpg);
+    background-image: url(../../hamburger_wp/images/front/main-visual-2.jpg);
     background-position: center;
     background-size: cover;
     height: auto;
@@ -83,7 +83,7 @@
 //  フロントページ　サブ写真　eatIn
 
 .p-visual--sub--eatIn {
-    background-image: url(/images/front/main-visual-3.jpg);
+    background-image: url(../../hamburger_wp/images/front/main-visual-3.jpg);
     background-position: center;
     background-size: cover;
     height: auto;
@@ -148,7 +148,7 @@
 // アーカイブページ
 
 .p_visual__archive--main{
-    background-image: url(/images/archive/top_01.png);
+    background-image: url(../../hamburger_wp/images/archive/top_01.png);
     background-size: inherit;
     display: flex;
     align-items: center;
@@ -214,7 +214,7 @@
 // シングルページ
 
 .p-visual__single--main {
-    background-image: url(/images/single/top_single.png);
+    background-image: url(../../hamburger_wp/images/single/top_single.png);
     background-size: 56rem;
     background-position: center 37%;
     background-repeat: no-repeat;
@@ -644,7 +644,7 @@
 // ページ
 
 .p-visual__page--main {
-    background-image: url(/images/shop/shop.png);
+    background-image: url(../../hamburger_wp/images/shop/shop.png);
     background-size: 56rem;
     margin-bottom: 30px;
     display: flex;

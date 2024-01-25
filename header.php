@@ -8,6 +8,7 @@
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title><?php bloginfo('name'); ?></title>
+    <!-- タイトル管理画面から変更 -->
     <?php wp_head(); ?>
 </head>
 
