@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
 <main class="l-main">
-    <article class="p-visual__single">
-        <section class="p-visual__single--main">
-            <h2 class="c-title--main c-font-color--white c-font-family--mplus1 c-font-weight--bold"> h1 チーズバーガー</h2>
+    <article class="p-visual__page">
+        <section class="p-visual__page--main">
+            <h2 class="c-title--main c-font-color--white c-font-family--mplus1 c-font-weight--bold"> ショップ情報</h2>
         </section>
         <section class="p-visual__single--sentence">
             <h2 class="c-title__single--h2">見出しh2</h2>
@@ -42,7 +42,7 @@
         </section>
         <section class="p-visual__single--sub">
             <div class="first-block">
-                <img class="first-block__top--img" src="<?php echo get_theme_file_uri('<?php echo get_theme_file_uri(/images/single/img_single.png); ?>'); ?>" alt="チーズバーガーの画像">
+                <img class="first-block__top--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
                 <figure class="first-block__middle01">
                     <img class="first-block__middle01--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
                     <figcaption class="first-block__middle01--text">
@@ -60,15 +60,15 @@
                 </figure>
             </div>
             <div class="second-block">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
-                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single'); ?>.png" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
+                <img class="second-block--img" src="<?php echo get_theme_file_uri('/images/single/img_single.png'); ?>" alt="チーズバーガーの画像">
             </div>
         </section>
         <section class="p-visual__single--list">

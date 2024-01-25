@@ -2,8 +2,8 @@
     <aside class="l-sidebar p-sideMenu">
         <div class="l-sidebar__main p-sideMenu__main js-toggle">
             <span class="menu-close js-button is-click"><i class="c-img--xmark"></i></span>
-            <h2 class="c-title--sidebar">Menu</h2>
-            <h3 class="c-title--sidebar__menu">バーガー</h3>
+            <h2 class="c-title--sidebar"><a href="#">Menu</a></h2>
+            <h3 class="c-title--sidebar__menu"><a href="#">バーガー</a></h3>
             <ul class="c-text--sidebar">
                 <li>ハンバーガー</li>
                 <li>チーズバーガー</li>

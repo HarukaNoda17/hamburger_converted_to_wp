@@ -18,6 +18,7 @@
         <header class="l-header c-background-color--base">
             <div class="l-header__top">
                 <a href="<?php echo esc_url(home_url('/')); ?>">
+                    <!-- ハンバーガークリックするとtopページへ戻る出力 -->
                     <h1 class="l-header__top__logo c-font-color--base c-font-family--robot c-font-weight--bold">
                         Hamburger
                     </h1>
